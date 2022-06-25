@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  font-size: 100%;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font: 16px/24px Arial, "Helvetica Neue", Helvetica, sans-serif;
+  backgound-color: white;
+  color: black;
+}
+#logo {
+  width: 50px;
+  left: 0;
+  right: 15px;
+  color: #000000;
+  box-shadow: 0 0 5px rgb(135, 229, 248);
+}
+.menu {
+  text-decoration: none;
+  height: 100px;
+  margin-left: 250px;
+  right: 100px;
+  color: black;
+  padding: 8px;
+  font-family: Roboto, Times, serif;
+  font-style: oblique;
+  font-weight: 400;
+  font-size: 16px;
+}
+.menu:hover {
+  text-decoration: underline;
+  color: aqua;
+  cursor: copy;
+}
+.menu:active {
+  text-decoration: line-through;
+}
+h1 {
+  position: absolute;
+  height: 144px;
+  left: 5%;
+  right: 0;
+  top: 50%;
+  font-family: Roboto, Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 71px;
+}
+p {
+  position: absolute;
+  height: 56px;
+  left: 5%;
+  right: 20%;
+  top: 70%;
+
+  font-family: Roboto, Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+}

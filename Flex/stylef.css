@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+}
+
+.flexcontainer,
+.flexcontainer1,
+.flexcontainer4,
+.aflexcontainer3 {
+    border: 1px solid rgb(240, 234, 234);
+    padding: 4pc;
+}
+.flexcontainer,
+.flexcontainer4 {
+    flex: 0 0 content;
+    display: flex;
+    background: #cfcfd1;
+}
+.flexcontainer {
+    justify-content: center;
+}
+.flexcontainer4 {
+    display: flex;
+    justify-content: space-around;
+}
+.end {
+    border: 1px solid #515153;
+    padding: 1pc;
+    background: #7c7c7c;
+}
+.flexbox {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.flexcontainer1 {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 60%;
+    background: #ebd1ab;
+}
+.flexcontainer3 {
+    display: flex;
+    width: 40%;
+    background: #c1e69f;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.menu1,
+.menu2,
+.menu3 {
+    border: 1px solid silver;
+    padding-left: 7pc;
+    padding-right: 7pc;
+    padding-top: 2pc;
+    padding-bottom: 2pc;
+    background: #fcce7a;
+    flex-wrap: wrap;
+}
+.menu3 {
+    display: flex;
+    padding-left: 16pc;
+    padding-right: 16pc;
+    justify-content: center;
+}
