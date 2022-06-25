@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font: 16px/24px Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(assets/images/Rectangle.png);
+    color: black;
+}
+.header {
+    width: 30px;
+    left: 0;
+    right: 15px;
+    display: flex;
+    background: url(assets/images/Rectangle.png);
+    color: black;
+}
+.logo {
+    left: 0;
+    right: 0, 14%;
+    top: 0;
+    width: 30px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background: url(assets/images/Rectangle.png);
+    color: black;
+}
+.menu {
+    text-decoration: none;
+    height: 100px;
+    margin-left: 250px;
+    right: 100px;
+    color: black;
+    padding: 8px;
+    font-family: Roboto, Times, serif;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 16px;
+}
+u:hover {
+    text-decoration: underline;
+    cursor: copy;
+}
+.menu:active {
+    text-decoration: line-through;
+}
+.main {
+    display: flex;
+    align-items: flex-start;
+}
+h1 {
+    position: absolute;
+    height: 144px;
+    left: 5%;
+    right: 0;
+    top: 50%;
+    font-family: Roboto, Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 71px;
+}
+p {
+    position: absolute;
+    height: 56px;
+    left: 5%;
+    right: 20%;
+    top: 70%;
+
+    font-family: Roboto, Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+}
